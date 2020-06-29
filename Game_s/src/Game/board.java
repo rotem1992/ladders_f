@@ -125,6 +125,8 @@ public  void board_view(char [] bord, int dice, int indexg,int indexc,int [] lad
 
 
 
+
+
 		@Override
 			protected Object clone() throws CloneNotSupportedException {
 			// TODO Auto-generated method stub n
