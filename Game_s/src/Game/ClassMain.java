@@ -64,15 +64,15 @@ public class ClassMain {
 			 System.out.println();
 			break;
 			case 'r':
-				if (board_save==null) {
+				if (board_save==null){
 					System.out.println(	"                            "+" [   error no board is saved   ]");
 					System.out.println(	"                               "+" [  	 board resetting	   ]");
 					actual.setPlayer1(1);
 					actual.setPlayer0(1);
 					
+					
 					actual.board_view(bord ,dice,actual.getPlayer1(),actual.getPlayer0(),ladders);
 					 System.out.println(); 
-				
 					}
 				else {
 					System.out.println("                                  [restoring from......"+ board_save +"]");

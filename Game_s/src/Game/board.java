@@ -1,7 +1,4 @@
 package Game;
-
-	          
-
 public class board implements Cloneable {
 		private int res_of_dice1;
 		private int player0 ;
@@ -12,7 +9,6 @@ public class board implements Cloneable {
 		public int getPlayer0() {
 			return player0;
 		}
-
 
 		public void setPlayer0(int player0) {
 			this.player0 = player0;
