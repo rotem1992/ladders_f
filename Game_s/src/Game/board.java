@@ -135,20 +135,6 @@ public  void board_view(char [] bord, int dice, int indexg,int indexc,int [] lad
 	
 	
 	
-	
-	
-/*
-
-		public Prototype get_copy() {
-			 try {
-				 my_board= (board) super.clone();     
-				 } catch (CloneNotSupport
-
-
-
-
-
-
 
 
 
